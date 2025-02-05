@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "LoginTestChrome" : "npx playwright test tests/example.spec.js -g 'Validate successful login using the provided valid credentials' --project=chromium",
-    "APITest" : "npx playwright test tests/example.spec.js -g 'API test for user'  --project=firefox"
+    "LoginTestChrome": "npx playwright test tests/login.spec.js -g 'Validate successful login using the provided valid credentials' --project=chromium",
+    "APITest": "npx playwright test tests/getApi.spec.js -g 'Get API test'  --project=chromium"
   },
   "keywords": [],
   "author": "",

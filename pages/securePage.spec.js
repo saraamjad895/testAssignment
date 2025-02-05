@@ -1,15 +1,13 @@
-class securePage
-{
-
-    constructor(page)
-    {
+class securePage {
+    constructor(page) {
         this.page = page;
     }
 
-    async getCurrentUrl()
-    {
+    /**
+     * To get current page url
+     * @returns
+     */
+    async getCurrentUrl() {
         return await this.page.url();
     }
-
-}
-module.exports={securePage}
+} module.exports = { securePage }
